@@ -1,0 +1,53 @@
+<script>
+    // is code sy hamy code ki length pata chaly gi 
+    let name= "Saqib Shah";
+    console.log(name.length)
+
+    // is function sy ham string ky sary alphabet ko capital kar dy gy 
+    console.log(name.toUpperCase())
+
+    // is function sy ham String ky sary alphabet ko small kar dy gy 
+    console.log(name.toLowerCase())
+
+    // javascript ki index zero (0) sy start hoti hai 0,1,2,3,4,5,6
+
+    // 0 S
+    // 1 a 
+    // 2 q 
+    // 3 i 
+    // 4 b 
+
+    // is tarha 
+
+    // is function sy ham code ky slice kar dy gy 
+    console.log(name.slice(2, 4))
+
+    // is function mai ham ny sirf number of index 2 diya is ki waja sy 2 ky baad pura string print ho jaye ga 
+    console.log(name.slice(2))
+
+    // is funtion mai ham apny string ky code ko replace kae sakhty hain 
+    console.log(name.replace("Saq", "Bat"))
+
+    let friend =" hamza ";
+    // is function mai ham 2 sring ko ak sath use kar sakhty hain
+    console.log(name.concat(" is a friend of", friend , "OK"))
+
+    let friend2="         ali         "
+    // is function ki help sy ham sring mai tu extra space hain inko ye khatam kar deta hai 
+    console.log(friend2.trim())
+    // console.log(friend2)
+
+    // is mai ham ny ak string mai multiple name diiye hain or phir ham ny number of index laga kar value print ki hai 
+    let fr ="raman" + "shivika" + "harry";
+    console.log(fr[0])
+    console.log(fr[1])
+    console.log(fr[2])
+    console.log(fr[3])
+
+    // ye 0, 1, 2, 3 karny sy raman  ki alphabet  print ki ky ham  ny 0= r , 1= a , 2= m , 3= a
+    console.log(fr)
+
+    // phir mai chata tha ky mai string mai sy sirf harry ko print karo phir mene ye kiya 
+    console.log(fr.slice(12, 17));
+
+</script>

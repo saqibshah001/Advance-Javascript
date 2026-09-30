@@ -1,0 +1,32 @@
+<script>
+    // Problem No.01
+    let marks={
+        saqib:45,
+        hamza:54,
+        faizan:23,
+        haider:65
+    }
+    for (let i=0;i<Object.keys(marks).length;i++){
+        console.log(Object.keys(marks)[i] + " are " + marks[Object.keys(marks) [i]] )
+    }
+
+    // Problem No.02
+    for (key in marks){
+        console.log("The marks of " + key + " are " +marks[key])
+    }
+
+    // Problem No.03 
+    let correct_num = 4
+    let i
+    while(i != correct_num){
+        i =prompt("Enter a number?")
+    }
+    console.log("your have enter a correct number ")
+
+    // Problem No.04
+    const mean= (a, b, c, d) => {
+        return(a + b + c + d) /4 
+    }
+    console.log(mean(4, 5, 6, 7))
+    
+</script>

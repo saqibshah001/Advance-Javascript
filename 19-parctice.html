@@ -1,0 +1,60 @@
+<script>
+    // <<<<<<<<<<<<<<<<<<      Problem No. 1        >>>>>>>>>>>>>>>>>>>>>>
+    // Q1. ham ny apny apni string ki length batani hai 
+    let str="saq\"ib";
+    console.log(str.length)
+
+    // is ka answer is waja sy six hai kiu ky ye ju ham ny apny string ky bech mai \" ye likha hai ye hamara Escape sequence character hai ye 1 charcter count hota hai is waja sy hamra answer 6 aaya hai
+
+
+    
+    // <<<<<<<<<<<<<<<<<<      Problem No. 2        >>>>>>>>>>>>>>>>>>>>>>
+    
+    const sentence= 'The quick brown fox jump over the lazy dog.';
+    const word= 'fox2'
+
+    // ye ju mai includes laga raha hu ye check kar raha hai ky sentence ju variable hai us ky under word variable ka fox2 hai ya nahi 
+    console.log(sentence.includes(word))
+    console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`)
+
+    
+    // <<<<<<<<<<<<<<<<<<      Problem No. 3        >>>>>>>>>>>>>>>>>>>>>>
+
+    let age = 15;
+    console.log(age >= 18 ? "Adult" : "Not Adult");
+
+
+    // <<<<<<<<<<<<<<<<<<      Problem No. 4        >>>>>>>>>>>>>>>>>>>>>>
+
+    // is function mai ham ny word waly veriable ki alphabet ko capital karna hai 
+    console.log(word.toUpperCase())
+    console.log(word.toLowerCase())
+
+
+    // <<<<<<<<<<<<<<<<<<      Problem No. 5        >>>>>>>>>>>>>>>>>>>>>>
+
+    // ab mai chata hu ky mai string main sy apni amount ko sirf print karo 
+    let str2="please give Rs 1000"
+
+    // let amount = str2.slice(15)
+
+    // ye nichy wali line is liye hai ky ham slice bhi kar rahy hain string ko ham sath mai string ko number mai convert bhi ka rahy hain agar hamy sirf string ko slice ko karna hai tu ham uper wali line bhi likh sakhty hain 
+    let amount = Number.parseInt( str2.slice(15))
+
+    
+    console.log(amount)
+
+    // is line sy ham variable ki type check kar sakhty hain 
+    console.log(typeof amount)
+    // yaha par ham ny slice ky baad 15 is liye ky mai chata hu 0 sy 15 tak meri jitni bhi length hai us ko slice kar du is liye wo cut ho gaee 
+
+
+    // <<<<<<<<<<<<<<<<<<      Problem No. 6        >>>>>>>>>>>>>>>>>>>>>>
+    
+    // ab mai chata hu ky mai apni string mai sy apny naam ky alphabet change karo 
+    let friend ="Saqib"
+    friend[3] ="K"
+    console.log(friend) 
+                //  Is not possible!!!!!!
+    // ye ju mai chat hu ye nahi ho sakhta kiu ky string ko ham change nahi kar sakhty 
+</script>

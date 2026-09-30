@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Conditional Expressions  -->
+
+    <!-- Conditional statment  -->
+    <!-- javascript mai 3 type ki if statmenthoti hoti hain  -->
+
+    if 
+    if else
+    if else if else
+
+    <!-- (1) first (if) wali statment mai ye hota hai ky agar Condition true hogi tu chaly gi statment warna nahi chaly gi  -->
+    <!-- (2) second wali statment mai ye hota hai ky agar ture hogi tu if wali statment chal jaye gi agr ture nahi hogi tu else wali chal jaye gi but in dono mai sy ak lazmi chaly gi  -->
+    <!-- (3) third wali statment mai ye hota hai ky aagar zada 2 sy zada Condition hu tu else if esle if use kary gy ham waha  -->
+     <script>
+        // let a = prompt("Hey whats you age?")
+        // a= Number.parseInt(a);
+        // console.log(typeof a);
+        // if(a>18){
+        //     alert("this is a valid age");
+        // }
+        // else{
+        //     alert("this is not valid age");
+        // }
+
+
+
+        // CHECK DRIVING AGE 
+
+        let a = prompt("Hey whats your age for driving?");
+
+        if (a<0){
+            alert("This is invalid age!");
+        }
+        else if(a<9){
+            alert("You are a kid you cannot even thinking of driving");
+        }
+        else if(a<18 && a>=9){
+            alert("You are a kid and you can think of driving after 18");
+        }
+        else{
+            alert("You can now drive as you are above 18");
+        }
+
+        // ternory operators
+
+        console.log("you can", (a<18? "not drive" : "drive")); 
+        
+     </script>
+</body>
+</html>
